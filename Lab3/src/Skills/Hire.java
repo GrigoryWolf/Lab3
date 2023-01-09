@@ -3,7 +3,7 @@ import Person.Person;
 
 import java.util.ArrayList;
 
-public class Hire implements Skill{
+public class Hire{
     public static void skill(Person employer, ArrayList<Person> employes){
         System.out.println(employer.getName() + " начинает отбор кандидатов");
         for(int i = 0; i<employes.size(); i++){
