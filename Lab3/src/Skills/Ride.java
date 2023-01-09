@@ -3,7 +3,7 @@ import Filled.Vehicle;
 import Place.Street;
 import java.util.ArrayList;
 
-public class Ride implements Skill{
+public class Ride{
     public static void skill(Vehicle vehicle, ArrayList<Street> way){
         String move;
         int distance;
